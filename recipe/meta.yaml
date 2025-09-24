@@ -1,5 +1,5 @@
 {% set name = "pyladoc" %}
-{% set version = "1.2.3" %}
+{% set version = "1.2.4" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0f3deb64229e224b4359ad3db35f9c069cb28ece181d35e4246e000569c8bb32
+  sha256: 9130f39c0525224f6688311a750270532e2bd83326cf6e0d13bc4a1ca4d773af
 
 build:
   noarch: python
